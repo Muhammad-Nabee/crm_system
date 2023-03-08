@@ -1,0 +1,76 @@
+.customerFavSection{
+    text-align: center;
+    margin: auto;
+}
+.customerFavDiv{
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    display: inline-block;
+}
+.menuBlock{
+    max-width: 225px;
+    max-height: auto;
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    transition: .5s;
+}
+.menuInnerBlock{
+    max-width: 225px;
+    max-height: auto;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    
+}
+.menuOuterBlock{
+    text-align: center;
+}
+.menuInnerBlock img{
+    background-size: contain;
+    background-position:center ;
+    width: 225px;
+    height: 200px;
+}
+.menuText{
+    position: absolute;
+    bottom: -50px;
+    width: 225px;
+    background: #222222;
+    left: 0;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    transition: 0.7s;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    /* overflow: auto; */
+    line-height: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+.menuText a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+.menuBlock:hover .menuText{
+    transform: translate(0, -50px);
+}
+.menuBlock:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.menuOuterBlock{
+    text-align: center;
+}
+.menuOuterBlock h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.menuOuterBlock p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
